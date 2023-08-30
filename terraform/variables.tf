@@ -3,16 +3,6 @@ variable "project_id" {
   type        = string
 }
 
-variable "dataset_name" {
-  description = "Name of the BigQuery dataset."
-  type        = string
-}
-
-variable "sink_name" {
-  description = "Name of the logging sink."
-  type        = string
-}
-
 variable "region" {
   description = "The region in which resources will be managed."
   type        = string
